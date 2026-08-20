@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Dynamic M3_spices Theme Re-Mapping */
+  /* saffron-x classes now represent Sage Green accents */
+  --color-saffron-50: #f4f8f5;
+  --color-saffron-100: #e5ede7;
+  --color-saffron-200: #c9dbcd;
+  --color-saffron-300: #a1c3aa;
+  --color-saffron-400: #74a581;
+  --color-saffron-500: #4A7C59; /* Sage Green Accent */
+  --color-saffron-600: #3b6347;
+  --color-saffron-700: #304e39;
+  --color-saffron-default: #4A7C59;
+
+  /* terracotta-x classes now represent Deep Forest Green */
+  --color-terracotta-50: #f3f6f4;
+  --color-terracotta-100: #e2ebe6;
+  --color-terracotta-200: #c3d7cd;
+  --color-terracotta-500: #163020; /* Deep Premium Forest Green */
+  --color-terracotta-600: #102418;
+  --color-terracotta-700: #0a170f;
+  --color-terracotta-default: #163020;
+
+  /* sage-x classes now represent Earthy Terracotta accents */
+  --color-sage-50: #fbf6f5;
+  --color-sage-100: #f8ece9;
+  --color-sage-200: #f1d0c8;
+  --color-sage-500: #A0402C; /* Warm Earthy Terracotta contrast */
+  --color-sage-600: #8b3422;
+  --color-sage-700: #6f2618;
+  --color-sage-default: #A0402C;
+
+  /* cream-x classes now represent Organic Crisp Cream / White */
+  --color-cream-50: #ffffff;
+  --color-cream-100: #FAFBF9; /* Crisp Organic Cream background */
+  --color-cream-200: #f3f5f1;
+  --color-cream-300: #e5e8e1;
+  --color-cream-default: #FAFBF9;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream-100 text-neutral-800 font-sans antialiased selection:bg-saffron-200 selection:text-terracotta-700 min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-terracotta-500 tracking-tight;
+  }
+}
+
+/* Custom animation keyframes for micro-animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.96); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulseBorder {
+  0%, 100% { border-color: rgba(74, 124, 89, 0.4); }
+  50% { border-color: rgba(22, 48, 32, 0.8); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.pulse-border {
+  animation: pulseBorder 2s infinite ease-in-out;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(250, 251, 249, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFBF9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3d7cd;
+  border-radius: 4px;
+  border: 2px solid #FAFBF9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A7C59;
+}

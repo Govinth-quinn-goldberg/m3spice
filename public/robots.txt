@@ -1,0 +1,13 @@
+# Saffron & Sage Spices - Robots Rules (Est. 2026)
+User-agent: *
+Allow: /
+
+# Block indexing of cart drawers, checkout redirects, and intermediate callbacks
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /api/
+Disallow: /*?search=*
+Disallow: /*?category=*
+
+# Point search crawlers to our XML Sitemap
+Sitemap: https://www.saffronandsagespices.com/sitemap.xml

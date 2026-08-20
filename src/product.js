@@ -1,0 +1,93 @@
+export const products = [
+  {
+    id: 'm3-premium-green-cardamom',
+    slug: 'premium-green-cardamom',
+    name: 'M3 Premium Green Cardamom',
+    subtitle: 'Jumbo Hand-Picked Supreme Pods • 250g',
+    price: 3000,
+    badge: 'Export Grade',
+    origin: 'Idukki Hills, Kerala',
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80',
+    description: 'Jumbo-sized, vibrant green cardamom pods selected for their extra-high volatile organic oil content.',
+    rating: 5,
+    reviewsCount: 198
+  },
+  {
+    id: 'm3-standard-bold-cardamom',
+    slug: 'standard-bold-cardamom',
+    name: 'M3 Standard Bold Cardamom',
+    subtitle: 'Highly Fragrant Mid-Size Whole Pods • 250g',
+    price: 2500,
+    badge: 'Bestseller',
+    origin: 'Wayanad Valleys, Kerala',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    description: 'Highly fragrant whole green cardamom pods, optimal for daily chai brewing and layered rice dishes.',
+    rating: 4.9,
+    reviewsCount: 145
+  },
+  {
+    id: 'm3-cooking-grade-cardamom',
+    slug: 'cooking-grade-cardamom',
+    name: 'M3 Cooking Grade Cardamom',
+    subtitle: 'Cracked Pods & Seeds for Ground Spices • 250g',
+    price: 2300,
+    badge: 'Value Pack',
+    origin: 'Western Ghats, Karnataka',
+    image: 'https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=800&q=80',
+    description: 'Highly economical whole green cardamom pods with minor surface splits.',
+    rating: 4.7,
+    reviewsCount: 88
+  },
+  {
+    id: 'm3-organic-garam-masala',
+    slug: 'organic-garam-masala',
+    name: 'M3 Organic Garam Masala',
+    subtitle: 'Heritage Direct Stone-Ground Blend • 100g',
+    price: 350,
+    badge: 'Heritage',
+    origin: 'Wayanad, Kerala',
+    image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80',
+    description: 'A symphony of 12 organic ingredients, stone-ground in bi-weekly micro-batches.',
+    rating: 4.9,
+    reviewsCount: 224
+  },
+  {
+    id: 'm3-kashmiri-chili-powder',
+    slug: 'kashmiri-chili-powder',
+    name: 'M3 Kashmiri Chili Powder',
+    subtitle: 'Mild Heat Vivid Crimson Powder • 150g',
+    price: 300,
+    badge: 'Essential',
+    origin: 'Pampore, Jammu & Kashmir',
+    image: 'https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=800&q=80',
+    description: 'Highly prized for its vibrant red coloring and gentle, fruity heat.',
+    rating: 4.8,
+    reviewsCount: 312
+  },
+  {
+    id: 'm3-kashmir-mongra-saffron',
+    slug: 'kashmir-mongra-saffron',
+    name: 'M3 Kashmir Mongra Saffron',
+    subtitle: 'Grade A+ Kashmir Mongra Threads • 2g',
+    price: 2600,
+    badge: 'Exquisite',
+    origin: 'Pampore Fields, Kashmir',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    description: 'The gold standard of global saffron. Deep crimson stigmas containing high crocin parameters.',
+    rating: 5,
+    reviewsCount: 95
+  },
+  {
+    id: 'm3-lakadong-turmeric',
+    slug: 'lakadong-turmeric',
+    name: 'M3 Lakadong Turmeric',
+    subtitle: 'Wellness High-Curcumin Turmeric • 200g',
+    price: 400,
+    badge: 'Wellness',
+    origin: 'Lakadong, Meghalaya',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    description: 'Features a high curcumin level of 7-12%, rendering it highly anti-inflammatory.',
+    rating: 4.9,
+    reviewsCount: 168
+  }
+];

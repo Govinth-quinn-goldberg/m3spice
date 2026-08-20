@@ -8,12 +8,12 @@ export const blogPosts = [
     readTime: "6 min read",
     author: "Midhun Govind, Founder & Sourcing Specialist",
     category: "Ethical Sourcing",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80",
+    image: "/images/safforn.jpg",
     summary: "Spices have lost their soul to industrial storage chains. Here is how Saffron & Sage is reviving the micro-lot model to pay farmers double while delivering 3x aroma concentrations directly to home chefs.",
     content: `
 Spices have shaped history. Wars were fought over cardamom, and empires rose around the pepper vines of the Malabar Coast. Yet, in our modern supermarket aisles, spices have been stripped of their identity. Most ground cardamom or cinnamon sitting on retail shelves has spent up to 18 months in middleman storage, losing volatile organic oils and flavor compounds before it ever reaches your pot.
 
-At **Saffron & Sage Spices** (also known as *Veda Spice Co.*), we believe that spices are living expressions of the soil. Our mission is to restore their sacred trail.
+At **M3_spices** (also known as *Veda Spice Co.*), we believe that spices are living expressions of the soil. Our mission is to restore their sacred trail.
 
 ### The Tragedy of Industrial Spice Farming
 
@@ -41,7 +41,7 @@ We are opening the Spice Journal to global food writers, organic agriculturists,
     readTime: "4 min read",
     author: "Chef Amira Vance",
     category: "Culinary Techniques",
-    image: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80",
+    image: "/images/garam masala.jpg",
     summary: "Did you know heat unlocks different aromatics in whole vs ground spices? Learn how to oil-bloom your spices to achieve restaurant-quality complexity at home.",
     content: `
 Many home cooks follow recipes perfectly, yet wonder why their homemade Indian curries or roasted spice mixtures lack that deep, aromatic punch found in gourmet kitchens. The secret lies in a molecular chemical reaction: oil-blooming, or tempering (known in India as *Tadka* or *Chhonk*).

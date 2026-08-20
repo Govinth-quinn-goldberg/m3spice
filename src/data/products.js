@@ -4,11 +4,11 @@ export const products = [
     slug: "m3-premium-cardamom",
     name: "M3 Premium Green Cardamom (Export Grade)",
     subtitle: "Jumbo Hand-Picked Supreme Pods",
-    price: 1800.00, // Base price represents Grade A or standard
+    price: 3000.00,
     rating: 5.0,
     reviewsCount: 198,
     badge: "Export Grade",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80&q=cardamom",
+    image: "/images/cardmom_grade1.webp",
     category: "Whole Spices",
     weight: "250g (8.8 oz)",
     origin: "Idukki Hills, Kerala",
@@ -24,9 +24,9 @@ export const products = [
     ingredients: "100% Organic Green Cardamom Pods (Supreme Size).",
     aromaDescription: "Highly volatile, refreshing citrus-camphorous top notes, yielding to warm, sweet-spicy herbal undertones.",
     grades: {
-      A: { label: "Grade A: Supreme Jumbo (9mm+)", price: 1800 },
-      B: { label: "Grade B: Bold Premium (8mm)", price: 1450 },
-      C: { label: "Grade C: Kitchen Standard (7mm)", price: 1100 }
+      A: { label: "Grade A: Supreme Jumbo (9mm+)", price: 3500, image: "/images/cardmom_grade1.webp" },
+      B: { label: "Grade B: Standard Bold (8mm)", price: 3000, image: "/images/cardmom_grade2.webp" },
+      C: { label: "Grade C: Kitchen Standard (7mm)", price: 2500, image: "/images/cardmom_grade3.webp" }
     }
   },
   {
@@ -34,11 +34,11 @@ export const products = [
     slug: "m3-standard-cardamom",
     name: "M3 Standard Bold Cardamom",
     subtitle: "Highly Fragrant Mid-Size Whole Pods",
-    price: 1200.00,
+    price: 2500.00,
     rating: 4.9,
     reviewsCount: 145,
     badge: "Bestseller",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
+    image: "/images/cardmom_grade2.webp",
     category: "Whole Spices",
     weight: "250g (8.8 oz)",
     origin: "Wayanad Valleys, Kerala",
@@ -54,9 +54,9 @@ export const products = [
     ingredients: "100% Organic Green Cardamom Pods (Bold Grade).",
     aromaDescription: "Rich citrusy-floral cardamom oils with subtle forest pine tones and warm herbal sweetness.",
     grades: {
-      A: { label: "Grade A: Selected Bold (8.5mm)", price: 1400 },
-      B: { label: "Grade B: Standard Bold (7.5mm)", price: 1200 },
-      C: { label: "Grade C: Mixed Size (6.5mm)", price: 900 }
+      A: { label: "Grade A: Selected Bold (8.5mm)", price: 2900, image: "/images/cardmom_grade1.webp" },
+      B: { label: "Grade B: Standard Bold (7.5mm)", price: 2500, image: "/images/cardmom_grade2.webp" },
+      C: { label: "Grade C: Mixed Size (6.5mm)", price: 2100, image: "/images/cardmom_grade3.webp" }
     }
   },
   {
@@ -64,11 +64,11 @@ export const products = [
     slug: "m3-cooking-cardamom",
     name: "M3 Cooking Grade Cardamom",
     subtitle: "Cracked Pods & Seeds for Ground Spices",
-    price: 600.00,
+    price: 2500.00,
     rating: 4.7,
     reviewsCount: 88,
     badge: "Value Pack",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80&q=cardamom-seeds",
+    image: "/images/cardmom_grade3.webp",
     category: "Whole Spices",
     weight: "250g (8.8 oz)",
     origin: "Western Ghats, Karnataka",
@@ -84,9 +84,9 @@ export const products = [
     ingredients: "100% Organic Green Cardamom Pods (Split Grade).",
     aromaDescription: "Grounding, warm herbal camphor notes with pleasant citrus hints and mild woodsy bark finishes.",
     grades: {
-      A: { label: "Grade A: Select Split (Clean Pods)", price: 850 },
-      B: { label: "Grade B: Cooking Standard (Mixed)", price: 600 },
-      C: { label: "Grade C: Seeds Only (Visual Splits)", price: 450 }
+      A: { label: "Grade A: Select Split (Clean Pods)", price: 2900, image: "/images/cardmom_grade1.webp" },
+      B: { label: "Grade B: Cooking Standard (Mixed)", price: 2500, image: "/images/cardmom_grade2.webp" },
+      C: { label: "Grade C: Seeds Only (Visual Splits)", price: 2100, image: "/images/cardmom_grade3.webp" }
     }
   },
   {
@@ -98,7 +98,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 224,
     badge: "Heritage",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80",
+    image: "/images/garam masala.jpg",
     category: "Ground Blends",
     weight: "100g (3.5 oz)",
     origin: "Wayanad, Kerala",
@@ -128,7 +128,7 @@ export const products = [
     rating: 4.8,
     reviewsCount: 312,
     badge: "Essential",
-    image: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80",
+    image: "/images/red chill.jpg",
     category: "Ground Blends",
     weight: "150g (5.3 oz)",
     origin: "Pampore, Jammu & Kashmir",
@@ -158,7 +158,7 @@ export const products = [
     rating: 5.0,
     reviewsCount: 95,
     badge: "Exquisite",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80&q=saffron",
+    image: "/images/safforn.jpg",
     category: "Whole Spices",
     weight: "2g (0.07 oz)",
     origin: "Pampore Fields, Kashmir",
@@ -188,7 +188,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 168,
     badge: "Wellness",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80&q=turmeric",
+    image: "/images/turmeric.jpg",
     category: "Ground Blends",
     weight: "200g (7 oz)",
     origin: "Lakadong, Meghalaya",

@@ -103,6 +103,7 @@ const ProductDetail = ({ slug, onAddToCart, onProductClick }) => {
 
   // Get current active pricing based on selector
   const activePrice = product.grades[selectedGrade].price;
+  const activeImage = product.grades[selectedGrade].image || product.image;
 
   return (
     <div className="space-y-16 pb-16 font-sans">
@@ -116,9 +117,10 @@ const ProductDetail = ({ slug, onAddToCart, onProductClick }) => {
           {/* Main Product Image */}
           <div className="aspect-square bg-neutral-100 rounded-3xl overflow-hidden border border-saffron-100/60 shadow-sm relative group">
             <img 
-              src={product.image} 
+              src={activeImage} 
               alt={product.name} 
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 animate-scale-in"
+              key={activeImage}
             />
             {product.badge && (
               <span className="absolute top-4 left-4 bg-saffron-500 text-white text-[9px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
